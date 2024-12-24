@@ -28,7 +28,7 @@ st.write("Presiona el botón para sacar una carta al azar")
 # Botón para generar una nueva carta
 if st.button("Nueva Carta"):
     carta = elegir_carta_aleatoria(cartas)
-    st.success(f"Tu carta al azar es: /n **{carta}**")
+    st.success(f"Tu carta al azar es:      **{carta}**")
 #
 
 # Mensaje de despedida opcional
