@@ -4,16 +4,35 @@ import random
 import streamlit as st
 
 # Lista de cartas: cada una en inglés y español
-cartas = [
-    "Dog - Perro", "Cat - Gato", "Car - Auto", "House - Casa", "Tree - Árbol",
-    "Pizza - Pizza", "Movie - Película", "Superhero - Superhéroe", 
-    "Phone - Teléfono", "Airport - Aeropuerto", "School - Escuela",
-    "Doctor - Doctor", "Soccer - Fútbol", "Beach - Playa", 
-    "Rainbow - Arco iris", "Doctor - Médico", "Mountain - Montaña", 
-    "Elephant - Elefante", "Basketball - Baloncesto", "Television - Televisión",
-    # ... You can include all the other cards here
-    "Virus - Virus", "Antivirus - Antivirus", "Revolución industrial - Industrial revolution"
-]
+cartas = ["Dog - Perro", "Cat - Gato", "Car - Auto", "House - Casa", "Tree - Árbol", "Pizza - Pizza", "Movie - Película",
+"Superhero - Superhéroe", "Phone - Teléfono", "Airport - Aeropuerto", "School - Escuela", "Doctor - Doctor",
+"Soccer - Fútbol", "Beach - Playa", "Rainbow - Arco iris", "Doctor - Médico", "Mountain - Montaña", "Elephant - Elefante",
+"Basketball - Baloncesto", "Television - Televisión", "Clown - Payaso", "Santa Claus - Santa Claus", "Fish - Pez",
+"Bird - Pájaro", "Train - Tren", "Robot - Robot", "Guitar - Guitarra", "Cake - Pastel", "Sun - Sol", "Moon - Luna",
+"Ice Cream - Helado", "Shark - Tiburón", "Computer - Computadora", "Beach Ball - Pelota de playa", "Tennis - Tenis",
+"Firefighter - Bombero", "Doctor - Médico", "Lion - León", "Cow - Vaca", "Pirate - Pirata", "Bicycle - Bicicleta",
+"Vampire - Vampiro", "Wizard - Mago", "Giraffe - Jirafa", "Hurricane - Huracán", "Snowman - Muñeco de nieve",
+"Spider - Araña", "Vase - Florero", "Jungle - Jungla", "Circus - Circo", "Library - Biblioteca", "Lighthouse - Faro",
+"Helicopter - Helicóptero", "Chandelier - Araña (de luz)", "Waterfall - Cascada", "Puzzle - Rompecabezas", "Magician - Mago",
+"Submarine - Submarino", "Harmonica - Armónica", "Microscope - Microscopio", "Telescope - Telescopio", "Owl - Búho",
+"Octopus - Pulpo", "Giraffe - Jirafa", "Witch - Bruja", "Spaghetti - Espagueti", "Chameleon - Camaleón", "Cactus - Cactus",
+"Eclipse - Eclipse", "Dragonfly - Libélula", "Treasure - Tesoro", "Castle - Castillo", "Turtle - Tortuga",
+"Carousel - Carrusel", "Accordion - Acordeón", "Chopsticks - Palillos", "Jukebox - Jukebox", "Cliff - Acantilado",
+"Scarecrow - Espantapájaros", "Lobster - Langosta", "Trampoline - Trampolín", "Caterpillar - Oruga", "Dinosaur - Dinosaurio",
+"Knight - Caballero", "Seahorse - Caballito de mar", "Vampire - Vampiro", "Pyramid - Pirámide", "Postcard - Postal",
+"Sandcastle - Castillo de arena", "Stethoscope - Estetoscopio", "Kite - Cometa", "Lightning - Relámpago",
+"Ballet - Ballet", "Popcorn - Palomitas de maíz", "Bumblebee - Abejorro", "Broomstick - Escoba", "Compass - Brújula",
+"Zebra - Cebra", "Eclipse solar - Solar eclipse", "Reloj de arena - Hourglass", "Paleontólogo - Paleontologist",
+"Caleidoscopio - Kaleidoscope", "Sismo - Earthquake", "Fantasía - Fantasy", "Alquimia - Alchemy", "Cerebro - Brain",
+"Aguijón - Stinger", "Supernova - Supernova", "Cilindro - Cylinder", "Cromosoma - Chromosome", "Imán - Magnet",
+"Arquitecto - Architect", "Tsunami - Tsunami", "Meteorito - Meteorite", "Antártida - Antarctica", "Dodecaedro - Dodecahedron",
+"Biblioteca - Library", "Química - Chemistry", "Cromatografía - Chromatography", "Filósofo - Philosopher", "Aeropuerto - Airport",
+"Hidrosfera - Hydrosphere", "Sinfonía - Symphony", "Torbellino - Whirlwind", "Anarquía - Anarchy",
+"Mefistófeles - Mephistopheles", "Bumerán - Boomerang", "Fahrenheit - Fahrenheit", "Fórmula matemática - Mathematical formula",
+"Arquitectura gótica - Gothic architecture", "Ojo de huracán - Eye of the hurricane", "Antídoto - Antidote",
+"Alquimia - Alchemy", "Científico - Scientist", "Neurona - Neuron", "Translúcido - Translucent", "Estalactita - Stalactite",
+"Magnetismo - Magnetism", "Genoma - Genome", "Holograma - Hologram", "Cianuro - Cyanide", "Radiación - Radiation",
+"Virus - Virus", "Antivirus - Antivirus", "Revolución industrial - Industrial revolution"]
 
 # Función para elegir una carta aleatoria
 def elegir_carta_aleatoria(cartas):
