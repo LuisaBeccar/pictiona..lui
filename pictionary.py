@@ -29,8 +29,7 @@ st.write("Presiona el botón para sacar una carta al azar")
 if st.button("Nueva Carta"):
     carta = elegir_carta_aleatoria(cartas)
     st.success(f"Tu carta al azar es: **{carta}**")
-else:
-    st.info("Haz clic en el botón para comenzar.")
+#
 
 # Mensaje de despedida opcional
 st.write("¡Buena suerte!")
