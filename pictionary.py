@@ -42,7 +42,7 @@ cartas = ["Dog - Perro", "Cat - Gato", "Car - Auto", "House - Casa", "Tree - Ár
   "Arquitecto - Architect", "Tsunami - Tsunami", "Meteorito - Meteorite",
   "Antártida - Antarctica", "Dodecaedro - Dodecahedron", "Biblioteca - Library",
   "Química - Chemistry", "Cromatografía - Chromatography", "Filósofo - Philosopher",
-  "Aeropuerto - Airport", "Hidrosfera - Hydrosphere", "Sinfonía - Symphony"],
+  "Aeropuerto - Airport", "Hidrosfera - Hydrosphere", "Sinfonía - Symphony",
   "Torbellino - Whirlwind", "Anarquía - Anarchy", "Mefistófeles - Mephistopheles",
   "Bumerán - Boomerang", "Fahrenheit - Fahrenheit", "Fórmula matemática - Mathematical formula",
   "Arquitectura gótica - Gothic architecture", "Ojo de huracán - Eye of the hurricane", "Antídoto - Antidote",
